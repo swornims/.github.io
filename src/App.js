@@ -1,8 +1,11 @@
 import './App.css';
+import { Homepage } from './components/Homepage'
 
 function App() {
   return (
-    <h1>meow</h1>
+    <>
+      <Homepage />
+    </>
   );
 }
 
