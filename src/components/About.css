@@ -23,7 +23,16 @@
     font-weight: 600;
     font-family: 'Kantumruy Pro', sans-serif;
     color: #FFA500;
-    margin-bottom: 0.5em;
+    margin-bottom: 0.2em;
+}
+
+.about-hr {
+    width: 20%;
+    background-color: #FFA500;
+    border: 2px solid #FFA500;
+    border-radius: 5px;
+    margin-bottom: 0.4em;
+    transition: 1s;
 }
 
 .about-p {
