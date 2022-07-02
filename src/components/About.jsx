@@ -11,7 +11,7 @@ export const About = () => {
                     internal library of knowledge of computer languages.
                     My primarily work with Frontend but have experience working with Backend as well. </p>
             </section>
-            <img src={about} alt="about-image" />
+            <img src={about} alt="about" />
         </div>
     )
 }
