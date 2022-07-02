@@ -30,3 +30,10 @@
     line-height: 1.5;
     font-size: 1.2em;
 }
+
+.about-span {
+    margin-top: 0.5em;
+    font-size: 1em;
+    color: #3A5BA0;
+    font-weight: 700;
+}
