@@ -23,7 +23,16 @@
     font-weight: 600;
     font-family: 'Kantumruy Pro', sans-serif;
     color: #FFA500;
-    margin-bottom: 0.5em;
+    margin-bottom: 0.2em;
+}
+
+.about-hr {
+    width: 20%;
+    background-color: #FFA500;
+    border: 2px solid #FFA500;
+    border-radius: 5px;
+    margin-bottom: 0.4em;
+    transition: 1s;
 }
 
 .about-p {
@@ -31,9 +40,28 @@
     font-size: 1.2em;
 }
 
+
 .about-span {
     margin-top: 0.5em;
-    font-size: 1em;
+    font-size: 1.4em;
     color: #3A5BA0;
     font-weight: 700;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+}
+
+a {
+    display: flex;
+    flex-direction: column;
+}
+
+.social-img {
+    padding-top: 0.5em;
+    padding-left: 0.5em;
+    width: 2.3em;
+    height: 2em;
 }
