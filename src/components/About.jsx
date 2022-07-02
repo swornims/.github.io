@@ -36,6 +36,7 @@ export const About = () => {
 
             </section>
             <img className='about-img' src={about} alt="about" />
+            <img src={about} alt="about" />
         </div>
     )
 }
