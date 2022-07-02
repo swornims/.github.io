@@ -10,6 +10,7 @@ export const About = () => {
                 <p className='about-p'>Hello, I am Swornim. Based in Nepal. I am constantly increasing my
                     internal library of knowledge of computer languages.
                     My primarily work with Frontend but have experience working with Backend as well. </p>
+                <span className='about-span'>Connect with Me</span>
             </section>
             <img src={about} alt="about" />
         </div>
