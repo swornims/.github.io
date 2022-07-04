@@ -1,0 +1,66 @@
+.projects-main-container {
+    background: #4b6587;
+    padding: 1em 0;
+
+}
+
+.projects-container {
+    display: flex;
+    width: 100%;
+    height: 500px;
+}
+
+.projects-main-h1 {
+    text-align: center;
+    color: white;
+    font-size: 2.4em;
+    font-family: 'Kantumruy Pro', sans-serif;
+}
+
+.projects-img {
+    border-radius: 30px;
+}
+
+.projects-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1em;
+
+}
+
+.projects-h1 {
+    font-size: 2.2em;
+    font-weight: 600;
+    font-family: 'Kantumruy Pro', sans-serif;
+    color: #e8f1f5;
+    margin-bottom: 0.2em;
+}
+
+.projects-hr {
+    width: 20%;
+    background-color: #e8f1f5;
+    border: 1px solid #e8f1f5;
+    border-radius: 5px;
+    margin-bottom: 0.4em;
+    transition: 1s;
+}
+
+
+.projects-p {
+    line-height: 1.5;
+    color: #e8f1f5;
+    font-size: 1em;
+}
+
+.projects-span {
+    color: grey;
+    font-size: 0.8em;
+}
+
+.more-span {
+    font-family: 'Kantumruy Pro', sans-serif;
+    padding-left: 1em;
+    color: white;
+    font-size: 2em;
+}
