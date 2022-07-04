@@ -15,7 +15,7 @@
     border-right: none;
     margin-left: 2em;
     margin-top: 2em;
-
+    width: 50%;
 }
 
 .about-h1 {
@@ -60,6 +60,7 @@ a {
 }
 
 .social-img {
+    margin: 0.4em;
     padding-top: 0.5em;
     padding-left: 0.5em;
     width: 2.3em;
