@@ -16,6 +16,7 @@
     margin-left: 2em;
     margin-top: 2em;
     width: 50%;
+    overflow: hidden;
 }
 
 .about-h1 {
@@ -32,8 +33,22 @@
     border: 2px solid #FFA500;
     border-radius: 5px;
     margin-bottom: 0.4em;
-    transition: 1s;
+    animation-duration: 4s;
+    animation-name: slidein;
 }
+
+/* @media (min-height:80vh) {
+    @keyframes slidein {
+        from {
+            display: none;
+            width: 0%;
+        }
+
+        to {
+            width: 20%;
+        }
+    }
+} */
 
 .about-p {
     line-height: 1.5;
