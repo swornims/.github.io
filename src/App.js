@@ -12,7 +12,6 @@ function App() {
       <About />
       <Language />
       <Projects />
-      {/* <Experience /> */}
     </>
   );
 }
