@@ -10,6 +10,8 @@ function App() {
     <>
       <Homepage />
       <About />
+      <Language />
+      <Projects />
     </>
   );
 }
