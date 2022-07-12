@@ -6,6 +6,9 @@
 }
 
 .contact-font {
+    background: url('../assets/contact.svg');
+    background-repeat: no-repeat;
+    background-size: 1.4em;
     color: #023047;
     text-align: center;
     font-size: 5em;
@@ -37,7 +40,6 @@ input {
     margin-bottom: 1em;
     width: 70%;
     height: 2em;
-    /* border-radius: 5px; */
     border: none;
     border-bottom: 1px solid black;
     font-family: 'Kantumruy Pro', sans-serif;
@@ -59,20 +61,12 @@ textarea::placeholder {
 input:focus {
     font-size: 1em;
     color: grey;
-    /* border: 2px solid red; */
     outline: none;
 }
 
 textarea {
     width: 70%;
 }
-
-/* textarea::placeholder {
-    font-weight: 200;
-    opacity: .5;
-    color: grey;
-    padding-left: 0.5em;
-} */
 
 .submit-btn {
     margin-top: 2em;
