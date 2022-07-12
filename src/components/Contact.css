@@ -40,7 +40,6 @@ input {
     margin-bottom: 1em;
     width: 70%;
     height: 2em;
-    /* border-radius: 5px; */
     border: none;
     border-bottom: 1px solid black;
     font-family: 'Kantumruy Pro', sans-serif;
@@ -62,7 +61,6 @@ textarea::placeholder {
 input:focus {
     font-size: 1em;
     color: grey;
-    /* border: 2px solid red; */
     outline: none;
 }
 
