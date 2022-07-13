@@ -1,22 +1,28 @@
+* {
+    font-family: 'Kantumruy Pro', sans-serif;
+}
+
 .contact-main {
     display: flex;
     width: 100%;
-    height: 500px;
+    height: 600px;
     align-items: center;
+    margin-top: 2em;
 }
 
 .contact-font {
-    background: url('../assets/contact.svg');
-    background-repeat: no-repeat;
-    background-size: 1.4em;
     color: #023047;
     text-align: center;
     font-size: 5em;
     font-weight: 600;
-    overflow: hidden;
     width: 50%;
-    font-family: 'Kantumruy Pro', sans-serif;
     margin-left: 0.8em;
+}
+
+.contact-img {
+    width: 2em;
+    margin: 0;
+    vertical-align: middle;
 }
 
 .contact-form {
@@ -30,9 +36,10 @@ form {
 }
 
 label {
-    font-weight: 300;
+    font-weight: 400;
     font-size: 1.2em;
     color: #023047;
+    margin-bottom: 0.3em;
 }
 
 input {
@@ -41,40 +48,46 @@ input {
     width: 70%;
     height: 2em;
     border: none;
-    border-bottom: 1px solid black;
-    font-family: 'Kantumruy Pro', sans-serif;
+    border-bottom: 1px solid grey;
     font-size: 1em;
     font-weight: 400;
-    color: grey;
+    color: darkgrey;
 }
 
 input::placeholder,
 textarea::placeholder {
-    font-family: 'Kantumruy Pro', sans-serif;
     font-size: 1em;
     font-weight: 200;
-    opacity: .8;
-    color: grey;
+    opacity: 1;
+    color: darkgrey;
     padding-left: 0.4em;
 }
 
 input:focus {
     font-size: 1em;
-    color: grey;
+    color: darkgrey;
     outline: none;
 }
 
 textarea {
     width: 70%;
+    padding-left: 0.6em;
+    font-size: 1em;
+    border-radius: 5px;
+}
+
+textarea:focus {
+    outline: 1px solid darkgray;
+    border-radius: 5px;
 }
 
 .submit-btn {
-    margin-top: 2em;
+    margin-top: 1.2em;
     width: 25%;
     padding: 0.5em 1.5em;
-    font-size: 1em;
-    background-color: white;
+    font-size: 1.2em;
+    background-color: #023047;
     border: 1px solid grey;
     border-radius: 5px;
-    color: #023047;
+    color: white;
 }
