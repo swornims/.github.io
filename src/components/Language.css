@@ -3,6 +3,11 @@
     margin: 2em;
 }
 
+.images {
+    display: flex;
+    justify-content: center;
+}
+
 .skills-hr {
     background-color: #FFA500;
     border: 1px solid #FFA500;
@@ -24,5 +29,49 @@ img {
 .mongodb {
     width: 200px;
     height: 50px;
-    padding-bottom: 1.5em;
+    margin-top: 3.6em;
+}
+
+
+@media (max-width:1024px) {
+    .skills-h1 {
+        font-size: 2.5em;
+    }
+
+    .images {
+        display: block;
+        text-align: center;
+    }
+
+    img {
+        width: 8em;
+        margin: 2.5em;
+    }
+
+    .mongodb {
+        margin-bottom: 5em;
+    }
+}
+
+@media (max-width:480px) {
+    .skills-h1 {
+        font-size: 2em;
+    }
+
+    .images {
+        display: inline-block;
+
+    }
+
+    img {
+        margin: 1.3em;
+        width: 8em;
+    }
+
+    .mongodb {
+        margin: 0;
+        margin-bottom: 3.6em;
+        width: 180px;
+        height: 50px;
+    }
 }
