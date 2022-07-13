@@ -20,7 +20,6 @@ export const About = () => {
                 <p className='about-p'>Hello, I am Swornim. Based in Nepal. I have studied computer languages for a very long time now.
                     I primarily work with Frontend and UI/UX Design but have also gained experience working with Backend by doing some local projects of my own. </p>
                 <span className='about-span'>Connect with Me</span>
-
                 <ul>
                     <li>
                         <a href="https://github.com/swornims" target='_blank' rel='noreferrer'>
@@ -28,7 +27,7 @@ export const About = () => {
                         </a>
                     </li>
                     <li>
-                        <a href="https://www.linkedin.com/in/swornim-shakya-bb765122a/" target='_blank' rel='noreferrer'>
+                        <a href="https://www.linkedin.com/in/swarnim-ratna-shakya/" target='_blank' rel='noreferrer'>
                             <img className='social-img' src={linkedin} alt="" />
                         </a>
                     </li>
@@ -38,7 +37,6 @@ export const About = () => {
                         </a>
                     </li>
                 </ul>
-
             </section>
             <img className='about-img' src={about} alt="about" />
         </div>
