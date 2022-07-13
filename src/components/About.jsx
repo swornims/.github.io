@@ -20,7 +20,6 @@ export const About = () => {
                 <p className='about-p'>Hello, I am Swornim. Based in Nepal. I have studied computer languages for a very long time now.
                     I primarily work with Frontend and UI/UX Design but have also gained experience working with Backend by doing some local projects of my own. </p>
                 <span className='about-span'>Connect with Me</span>
-
                 <ul>
                     <li>
                         <a href="https://github.com/swornims" target='_blank' rel='noreferrer'>
@@ -38,7 +37,6 @@ export const About = () => {
                         </a>
                     </li>
                 </ul>
-
             </section>
             <img className='about-img' src={about} alt="about" />
         </div>
