@@ -28,7 +28,7 @@ export const About = () => {
                         </a>
                     </li>
                     <li>
-                        <a href="https://www.linkedin.com/in/swornim-shakya-bb765122a/" target='_blank' rel='noreferrer'>
+                        <a href="https://www.linkedin.com/in/swarnim-ratna-shakya/" target='_blank' rel='noreferrer'>
                             <img className='social-img' src={linkedin} alt="" />
                         </a>
                     </li>
