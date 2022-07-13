@@ -3,8 +3,9 @@ import { Homepage } from './components/Homepage'
 import { About } from './components/About'
 import { Language } from './components/Language'
 import { Projects } from './components/Projects'
-import { Working } from './components/Working'
+// import { Working } from './components/Working'
 import { Contact } from './components/Contact'
+import { Footer } from './components/Footer'
 // import { Experience } from './components/Experience'
 
 function App() {
@@ -15,7 +16,8 @@ function App() {
       <Language />
       <Projects />
       <Contact />
-      <Working />
+      <Footer />
+      {/* <Working /> */}
     </>
   );
 }
