@@ -3,6 +3,8 @@ import './Footer.css'
 
 export const Footer = () => {
     return (
-        <div>Footer</div>
+        <div className='footer-main'>
+            <p className='footer-p'>Created by Swarnim Ratna Shakya and all rights reserved.</p>
+        </div>
     )
 }
