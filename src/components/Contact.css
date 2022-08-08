@@ -74,6 +74,7 @@ textarea {
     padding-left: 0.6em;
     font-size: 1em;
     border-radius: 5px;
+    color: darkgrey;
 }
 
 textarea:focus {
@@ -90,4 +91,34 @@ textarea:focus {
     border: 1px solid grey;
     border-radius: 5px;
     color: white;
+}
+
+.submit-btn:hover {
+    cursor: pointer;
+}
+
+@media (max-width: 900px) {
+    .contact-main {
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .contact-font {
+        font-size: 2em;
+        width: 100%;
+    }
+
+    .contact-img {
+        display: none;
+    }
+
+    .contact-form {
+        width: 100%;
+        /* margin: none; */
+    }
+
+    .form {
+        margin: 1em;
+    }
 }

@@ -4,6 +4,8 @@
     margin: 0;
     scroll-behavior: smooth;
     box-sizing: border-box;
+    width: 100%;
+    overflow-x: hidden;
 }
 
 body::-webkit-scrollbar {
