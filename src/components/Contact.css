@@ -97,16 +97,45 @@ textarea:focus {
     cursor: pointer;
 }
 
+@media (max-width: 1024px) {
+    .contact-font {
+        font-size: 3.5em;
+        margin-left: 0.4em;
+    }
+
+    form {
+        margin-left: 2em;
+    }
+
+    input,
+    textarea {
+        width: 100%;
+    }
+
+    label {
+        font-size: 1.6em;
+    }
+
+    input::placeholder,
+    textarea::placeholder {
+        font-size: 1.2em;
+    }
+
+    .submit-btn {
+        width: 50%;
+    }
+}
+
 @media (max-width: 900px) {
     .contact-main {
         flex-direction: column;
         align-items: center;
-
     }
 
     .contact-font {
         font-size: 2em;
         width: 100%;
+        margin-left: 0;
     }
 
     .contact-img {
@@ -118,7 +147,22 @@ textarea:focus {
         /* margin: none; */
     }
 
-    .form {
-        margin: 1em;
+    form {
+        justify-content: center;
+        margin: 3em;
+        /* margin-left:4em; */
+    }
+
+    input,
+    textarea {
+        width: 100%;
+    }
+
+    label {
+        font-size: 1.6em;
+    }
+
+    .submit-btn {
+        width: 50%;
     }
 }
