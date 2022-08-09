@@ -66,6 +66,36 @@
     font-size: 2em;
 }
 
+@media (max-width: 1024px) {
+    .projects-main-container {
+        height: 750px;
+    }
+
+    .projects-container {
+        flex-direction: column;
+
+    }
+
+    .projects-img {
+        width: 90%;
+        height: 70%;
+    }
+
+    .projects-info {
+        padding-left: 4em;
+        padding-top: 0;
+    }
+
+    .projects-h1 {
+        font-size: 1.8em;
+    }
+
+    .more-span {
+        padding-left: 2.4em;
+        font-size: 1.6em;
+    }
+}
+
 @media (max-width:900px) {
     .projects-main-container {
         height: 600px;
