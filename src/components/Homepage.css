@@ -46,6 +46,12 @@
     height: 90px;
 }
 
+@media (max-width: 900px) {
+    .intro-p {
+        margin-left: 0.2em;
+    }
+}
+
 @media (max-width: 1024px) {
     .intro-p {
         font-size: 6em;
