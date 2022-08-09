@@ -1,9 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Kantumruy+Pro:wght@100;400&family=Splash&display=swap');
 
-* {
+*,
+html,
+body {
     margin: 0;
     scroll-behavior: smooth;
     box-sizing: border-box;
+    overflow-x: hidden;
 }
 
 body::-webkit-scrollbar {
