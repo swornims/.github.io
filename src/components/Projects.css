@@ -7,7 +7,7 @@
 .projects-container {
     display: flex;
     width: 100%;
-    height: 600px;
+    /* height: 600px; */
 }
 
 .projects-main-h1 {
@@ -98,12 +98,12 @@
 
 @media (max-width:900px) {
     .projects-main-container {
-        height: 600px;
+        height: 500px;
     }
 
     .projects-container {
         flex-direction: column;
-        height: 440px;
+        /* height: 480px; */
     }
 
     .projects-img {
@@ -111,12 +111,18 @@
         border-radius: none;
     }
 
+    .projects-info {
+        padding-left: 1.5em;
+    }
+
     .projects-h1 {
-        font-size: 2em;
+        font-size: 1.6em;
+        display: block;
+
     }
 
     .projects-p {
-        font-size: 1.2em;
+        font-size: 1em;
     }
 
     .projects-span {
@@ -124,6 +130,8 @@
     }
 
     .more-span {
-        padding-left: 0.5em;
+        padding-left: 0.9em;
+        font-size: 1.4em;
+        /* display: none; */
     }
 }
