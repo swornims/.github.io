@@ -73,7 +73,6 @@ a {
     margin: 2em;
 }
 
-
 @media (max-width:1024px) {
     .about-container {
         flex-direction: column;
