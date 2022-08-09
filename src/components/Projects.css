@@ -65,3 +65,35 @@
     color: white;
     font-size: 2em;
 }
+
+@media (max-width:900px) {
+    .projects-main-container {
+        height: 600px;
+    }
+
+    .projects-container {
+        flex-direction: column;
+        height: 440px;
+    }
+
+    .projects-img {
+        width: 90%;
+        border-radius: none;
+    }
+
+    .projects-h1 {
+        font-size: 2em;
+    }
+
+    .projects-p {
+        font-size: 1.2em;
+    }
+
+    .projects-span {
+        font-size: 1em;
+    }
+
+    .more-span {
+        padding-left: 0.5em;
+    }
+}
