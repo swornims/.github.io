@@ -73,6 +73,7 @@ a {
     margin: 2em;
 }
 
+
 @media (max-width:1024px) {
     .about-container {
         flex-direction: column;
@@ -95,4 +96,23 @@ a {
         width: 30%;
     }
 
+}
+
+@media (max-width: 900px) {
+    .about-container {
+        display: block;
+    }
+
+    .about-info {
+        margin: 1em;
+        margin-left: 1.2em;
+    }
+
+    .about-img {
+        display: none;
+    }
+
+    .about-p {
+        font-size: 1.2em;
+    }
 }
