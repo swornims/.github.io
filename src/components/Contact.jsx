@@ -3,6 +3,11 @@ import './Contact.css'
 import contact from '../assets/contact.svg'
 
 export const Contact = () => {
+    // const onSubmit = (e) => {
+    //     e.preventDefault();
+    // }
+
+
     return (
         <div className='contact-main'>
             <section className='contact-font'>
